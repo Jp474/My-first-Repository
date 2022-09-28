@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="index.css">
+
+<head>
+<h1>Generate a </h1>
+<h2>random password</h2>
+<h3>Never use an insecure password again</h3>
+
+</head>
+
+
+<body>
+<label for="chose-pass-length">Choose password lenght: </label><input type="number" id="chose-pass-length"/>
+<input type="checkbox" id="Numbers" name="Numbers" unchecked> <label for="Numbers">Numbers</label>
+<input type="checkbox" id="Symbols" name="Symbols" unchecked> <label for="Symbols">Symbols</label>
+<div><button id="generate-char" onclick="generateRandomPasswordOne(), generateRandomPasswordTwo()">Generate passwords</button></div>
+
+<div><button id="button-One" onclick="copyOne()"></button> <button id="button-Two" onclick="copyTwo()"></button></div>
+
+
+</body>
+
+
+<script src="index.js"></script>
+
+
+
+</html>
