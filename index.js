@@ -25,10 +25,10 @@ function returnpasslength() {
 
 
 function generateRandomCharacter () {
-    if (symbolCheck.checked === true) {
+    if (symbolCheck.checked === true && numberCheck.checked === false) {
         let randomCharacter = Math.floor(Math.random()*characterSymbols.length)
         return characterSymbols[randomCharacter]
-    } else if (numberCheck.checked === true) {
+    } else if (numberCheck.checked === true && symbolCheck.checked === false) {
         let randomCharacter = Math.floor(Math.random()*characterNumbers.length)
         return characterNumbers[randomCharacter]
     } else if (numberCheck.checked === true && symbolCheck.checked === true) {
@@ -79,4 +79,3 @@ function copyTwo () {
     }
 }
 
-Console.log(Object.prototype.toString.call(populated))
