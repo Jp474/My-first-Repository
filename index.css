@@ -3,4 +3,33 @@ head {
 }
 body {
     text-align: center;
+    background-color: #1F2937;
+}
+h1{
+    color: white;
+}
+
+h2{
+    color: #4ADF86;
+}
+
+h3{
+    color: #D5D4D8;
+}
+
+#generate-char {
+    margin-top: 10px;
+    background-color: #10B981;
+    color: white;
+}
+
+#button-One, #button-Two
+{
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #273549;
+    color: #55F991;
+    height: 25px;
+    width: 300px;
+    
 }
